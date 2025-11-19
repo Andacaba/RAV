@@ -1,0 +1,105 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #222;
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    width: 35%;
+    background-color: rgba(172, 181, 219, 0.541);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+    background-image: url(comunidad3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background: white;
+    width: 320px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.479);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.input-group input {
+    width: 100%;
+    padding: .6rem;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.btn {
+    width: 100%;
+    padding: .7rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: rgb(67, 120, 180);
+}
+
+.registrarse{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.registrarse a{
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}
